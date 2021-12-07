@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estiloCad.css">
+ </head>
+ <body>
+    <div class="sectioninf"> 
+       <h1>1° PASSO</h1>
+       <h2>Preencha os campos com seus dados para que possa efetuar o cadastro</h2>
+    </div>
+   <div class="section">
+
+      <form class="forms">
+      
+       <div class="title"><h3>Nome Completo:</h3></div>
+        <input name="usuario" placeholder="Digite seu nome completo" type="text" id='nome' required="required"> 
+  
+        <div class="title"><h3>E-mail:</h3></div>
+        <div class="input">  <input placeholder="Exemplo: nome@gmail.com" type="text" id='email' required="required"> </div>
+         
+        <div class="title"><h3>Telefone:</h3></div>
+        <div class="input">  <input placeholder="Exemplo: (99)99999-9999" type="text" id='telefone' required="required"> </div>
+
+        <div class="title"><h3>CPF:</h3></div>
+        <div class="input">  <input placeholder="Exemplo: 111.111.111-11" type="text" id='cpf' required="required"> </div>
+
+        <div class="title"><h3>Endereço:</h3></div>
+        <div class="input">  <input placeholder="" type="text" id='endereco' required="required"> </div>
+        
+        <div class="title"><h3>Sexo:</h3></div>
+        <div>
+           <select id="sexo" name="sexo">
+            <option value="naoInformar">Prefiro não informar</option>
+            <option value="masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+           </select>
+        </div>
+
+        <div class="sectioninf"> 
+         <h1>2° PASSO</h1>
+         <h2>Crie o nome de Usuário e Senha efetuar o cadastro</h2>
+        </div>
+         
+        <div class="title"><h3>Usuário:</h3></div>
+        <div class="input">  <input placeholder="" type="text" id='usuario' required="required"> </div>
+
+        <div class="title"><h3>Senha:</h3></div>
+        <div class="input">  <input placeholder="*********" type="text" id='senha' required="required"> </div>
+
+        <div class="title"><h3>Confirmar Senha:</h3></div>
+        <div class="input">  <input placeholder="*********" type="text" id='confirmarsenha' required="required"> </div>
+
+        <input type="submit" value="Cadastrar">
+      </form>
+      <div class="exp">
+       
+     </div> 
+      
+ </body>
+
+</html>
