@@ -1,54 +1,122 @@
 <!DOCTYPE html>
 <html>
+  <!--Links-->
  <head lang="en">
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="estiloHome.css">
-
   <title>Home</title>
  </head>
- <style>
-
+ <!--estilo-->
+ <style> 
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+  .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+  .fa-anchor,.fa-coffee {font-size:200px}
  </style>
  <body>
+  <div class="navbar">
+    <a href="principal.html" class="active">Home</a>
+    <a href="">Tutorial</a>
+    <a href="">Atendimento</a>
+    <a href="login/login.html" class="right">Entrar</a>
+  </div>
     <div class="header">
         <img src="img/logo.png" class="logo">
-        <p><b>Bem Vindo ao OldPal!</b></p>
+        <h2><b>Bem Vindo ao OldPal!</b></h2>
+    </div> 
+    <!--Corpo do site-->   
+     <!-- primeira Grid -->
+ <div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>O que é OldPal?</h1>
+      <h5 class="w3-padding-32">A OldPal é a melhor plataforma para que os idosos possam se relacionar com pessoas novas e criar vinculo e amizades com outros idosos fazendo com que eles tenham mais contato com o mundo digital!</h5>
+
+      <p class="w3-text-grey">O OldPal é um website e app Preparado para que o idoso possa se conectar com familiares e amigos um dos poucos a ter o BIG LAUNCHER. O Big Launcher é uma aplicação focada no idoso, contendo mensagens, 
+        uma lista de contatos, chamadas e mais algumas funções do tipo. Deste modo site possui botões grandes de fácil visualização
+        Então basta dar um clique nos botões que será direcionado para a determinada função.</p>
     </div>
-    <div class="navbar">
-        <a href="principal.html" class="active">Home</a>
-        <a href="inform/infoldpal.html">Sobre o OldPal</a>
-        <a href="tutorial/tutorial.html">Como Usar</a>
-        <a href="login/login.html" class="right">login</a>
-      </div>
-      
-    <div class="row">
-        <div class="side">
-            <h2>Começando Agora?</h2>
-            <h5>Clique no Livro abaixo para você entender melhor nosso site</h5>
-            <form action="tutorial/tutorial.html">
-              <button id="close" class="closing" ><img src="img/book.png" class="icons" /></button>
-            </form>
-          <h2>Nossos Objetivos</h2>
-          <h5>Entenda quais objetivos o OldPal predente atingir:</h5>
-          <form action="inform/infoldpal.html">
-            <button class="btn"><i class="fa fa-folder"></i> objetivos</button>
-          </form>
-          
-        </div>
-        <div class="side">
-        <h2>Principais Serviços:</h2>
-          <h5>Envie Mensagens e faça chamadas com seus amigos</h5>
-          <form action="">
-            <button id="close" class="closing" ><img src="img/MSN.png" class="icons" /></button>
-          </form>
-          <form action="">
-            <button id="close" class="closing" ><img src="img/call.png" class="icons" /></button>
-          </form>
-        </div>
+
+    <div class="w3-third w3-center">
+      <img src="img/biglaunchaer.png">
     </div>
+  </div>
+ </div>
+ <!-- Segunda Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+         <img src="img/seniors.png">
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Atendimento</h1>
+      <h5 class="w3-padding-32">Nossa plataforma possui uma central de Atendimento</h5>
+
+      <p class="w3-text-grey">É isso mesmo OldPal oferece um atendimento para o nosso cliente. Para nós é muito importante que o usuario saiba usar todos os recursos disponiveis na plataforma, por isso temos o Atendimento ao cliente
+        e um tutorial disponivel no youtube.
+      </p>
+    </div>
+  </div>
+</div>
+ <!--terceira Grid-->
+ <div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Principais funções:</h1>
+      <h5 class="w3-padding-32">OldPal já oferece uma grande facilidade no uso do app</h5>
+      <p class="w3-text-grey">Agora! A principal função	do app/website é que o senhor de mais idade possa fazer ligações e mandar mensagens para amigos e 
+        familiares com mais facilidade. Afinal os apps atuais não ajudam em nada as pessoas da terceira idade com icones pequenos e letras minusculas
+        dificultando a interação dos mais velhos nas redes sociais.<br>
+        A função do OldPal é justamente solucionar esses problemas para que os idosos possam estar mais inseridos no mundo digital.
+      </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="img/idosofeliz.png">
+    </div>
+  </div>
+ </div>
+<!--quarta Grid-->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <form action="login/cadastro/cadastro.html">
+        <button>
+         <img src="img/newcadastro.png">
+        </button>
+      </form> 
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Já está Cadastrado?</h1>
+      <h5 class="w3-padding-32">Se não possui uma conta cadastre agora mesmo no botão ao lado</h5>
+
+      <p class="w3-text-grey">Não perca tempo e venha fazer parte dessa comunidade, é simples rápido e fácil!</p>
+    </div>
+  </div>
+</div>
+<!--ultima div-->
+  <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+      <h1 class="w3-margin w3-xlarge">Nos siga nas redes sociais</h1>
+  </div>
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+    <div class="w3-xlarge w3-padding-32">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+   </div>
+  
+  </footer>
+  
  </body>
 </html>
